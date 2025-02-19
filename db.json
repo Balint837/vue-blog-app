@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": 1737492122536,
+      "name": "János Kovács",
+      "email": "janos.kovacs@example.com",
+      "password": "$2a$08$mVNS8OFSQtHufsPJ.TNd/.E4ZjB3yUVufcy2Ar4qUj3tp2qOwT.yq"
+    },
+    {
+      "id": 1739618481029,
+      "name": "Lilla Nagy",
+      "email": "lilla.nagy@example.com",
+      "password": "$2a$08$z/w8.FlFtt5MgyKSuJtSle0eNsqh2m5pU5EaYoAn.iUJzjzbpzUsK"
+    },
+    {
+      "id": 1739960971188,
+      "name": "asd",
+      "email": "b@a.com",
+      "password": "$2a$08$oeS8jtTEw5dhJbnnT1m4SePZQQmro8jD6unLTvmX9gTDQg2lzoQOq"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1740123456789,
+      "authorId": 1737492122536,
+      "title": "The Future of AI",
+      "subtitle": "Exploring AI advancements in 2025",
+      "content": "Artificial intelligence is evolving rapidly, changing industries and daily life...",
+      "shortText": "How AI is transforming our world in 2025.",
+      "image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+      "category": "Technology"
+    },
+    {
+      "id": 1740567890123,
+      "authorId": 1737492122536,
+      "title": "Top 10 Travel Destinations for 2025",
+      "subtitle": "Explore the most breathtaking places this year",
+      "content": "From the serene beaches of the Maldives to the vibrant streets of Tokyo...",
+      "shortText": "Your travel bucket list for 2025!",
+      "image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+      "category": "Travel"
+    },
+    {
+      "id": 1740987654321,
+      "authorId": 1739618481029,
+      "title": "Healthy Eating: Myths vs. Facts 2",
+      "subtitle": "Debunking common misconceptions about food",
+      "content": "Many people believe that all fats are bad or that skipping meals helps with weight loss...",
+      "shortText": "What’s true and what’s not about healthy eating?",
+      "image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+      "category": "Health"
+    },
+    {
+      "id": 1739992129184,
+      "title": "title",
+      "subtitle": "subtitle",
+      "content": "main text",
+      "shortText": "subtext",
+      "image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+      "category": "category",
+      "authorId": 1739618481029
+    },
+    {
+      "id": 1739993137451,
+      "title": "1",
+      "subtitle": "1",
+      "content": "1",
+      "shortText": "1",
+      "image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+      "category": "1",
+      "authorId": 1739618481029
+    },
+    {
+      "id": 1739993141705,
+      "title": "2",
+      "subtitle": "2",
+      "content": "2",
+      "shortText": "2",
+      "image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+      "category": "2",
+      "authorId": 1739618481029
+    },
+    {
+      "id": 1739993146788,
+      "title": "3",
+      "subtitle": "3",
+      "content": "3",
+      "shortText": "3",
+      "image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+      "category": "3",
+      "authorId": 1739618481029
+    }
+  ]
+}
