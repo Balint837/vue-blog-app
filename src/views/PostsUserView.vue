@@ -3,11 +3,7 @@
     <h1 class="text-2xl font-bold mb-4">Your Posts</h1>
 
     <div v-if="posts.length" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      <PostCard
-        v-for="post in posts"
-        :key="post.id"
-        :post="post"
-      />
+      <PostCard v-for="post in posts" :key="post.id" :post="post" />
     </div>
 
     <p v-else class="text-center text-gray-500 mt-6">You have no posts yet.</p>

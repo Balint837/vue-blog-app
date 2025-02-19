@@ -1,7 +1,9 @@
 <template>
   <main class="min-h-screen bg-gray-100 py-10">
     <!-- Search Bar -->
-    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center space-x-0 sm:space-x-4 p-4">
+    <div
+      class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center space-x-0 sm:space-x-4 p-4"
+    >
       <input
         type="text"
         v-model="titleToSearch"
@@ -24,7 +26,10 @@
 
     <!-- Posts Grid -->
     <div class="max-w-7xl mx-auto px-4 mt-8">
-      <div v-if="posts.length" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+      <div
+        v-if="posts.length"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6"
+      >
         <PostCard v-for="post in posts" :key="post.id" :post="post" />
       </div>
       <p v-else class="text-center text-gray-500 mt-6">Nincsenek találatok.</p>
